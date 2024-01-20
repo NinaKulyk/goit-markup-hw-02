@@ -44,7 +44,8 @@ body {
   text-decoration: none;
 }
 
-.header-nav-menu-link:hover {
+.header-nav-menu-link:hover,
+.header-nav-menu-link:focus {
   color: #404bbf;
 }
 
@@ -99,7 +100,8 @@ body {
   cursor: pointer;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #404bbf;
 }
 
@@ -226,7 +228,7 @@ body {
 .footer-logo-link {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
-  font-size: 700;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
