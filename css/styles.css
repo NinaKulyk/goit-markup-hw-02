@@ -1,6 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 
 /*======HEADER=======*/
@@ -12,18 +13,19 @@ body {
 }
 
 .header-logo-link {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
+  font-weight: 700;
   font-style: normal;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .header-logo-accent {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-nav-menu {
@@ -47,6 +49,7 @@ body {
 }
 
 .header-nav-menu-link:active {
+  color: #404bbf;
   text-decoration: underline;
 }
 
@@ -93,6 +96,7 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .hero-btn:hover {
@@ -104,20 +108,6 @@ body {
 /*=======OFFER=======*/
 
 .offer {
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .offer-list {
@@ -138,6 +128,7 @@ body {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 /*===================*/
@@ -145,6 +136,7 @@ body {
 /*=======TEAM========*/
 
 .team {
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -153,6 +145,7 @@ body {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-list {
@@ -160,6 +153,7 @@ body {
 }
 
 .team-list-item {
+  background-color: #ffffff;
 }
 
 .team-item-img {
@@ -171,6 +165,7 @@ body {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .team-item-text {
@@ -193,6 +188,7 @@ body {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .portfolio-list {
@@ -210,6 +206,7 @@ body {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-item-text {
@@ -227,17 +224,18 @@ body {
 }
 
 .footer-logo-link {
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 700;
   font-size: 18px;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .footer-logo-accent {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .footer-text {
